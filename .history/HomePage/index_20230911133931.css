@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+ padding: 16px 135px 66px 135px ;
+ background: #28293E;
+
+}
+
+
+
+.container .navbar {
+    display: flex;
+    
+}
+
+.container .navbar li{
+    list-style-type: none;
+    margin: auto;
+   
+}
+
+.container .navbar  li a{
+    text-decoration: none;
+    
+}
+
+.container .navbar  li a{
+color: var(--Text_Light, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.container .menu .navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .menu .navbar .logo img{
+    width: 48px;
+height: 48px;
+}
+
+.container .text h1{
+    margin-top: 104px;
+    color: var(--Text_Light, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: -2px;
+}
+
+
+.container .text p{
+    width: 570;
+    color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Text */
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+}
+

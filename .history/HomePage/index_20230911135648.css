@@ -16,15 +16,6 @@
   align-items: center;
   justify-content: space-between;
 }
-.container{
-    min-height: 100vh;
- padding: 16px 135px 66px 135px ;
- background: #28293E;
-
-}
-
-
-
 .container .navbar {
   display: flex;
   align-items: center;
