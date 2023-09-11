@@ -11,33 +11,31 @@
   padding: 16px 135px 66px 135px;
   background: #28293e;
 }
-.container nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.container nav{
+display: flex;
+align-items: center;
 }
 .container .navbar {
   display: flex;
   align-items: center;
 }
-.container nav .logo {
-  display: flex;
-  align-items: center;
+.container nav .logo{
+    display: flex;
+    align-items: center;
 }
-.container nav .logo span {
-  margin-left: 14px;
-  color: var(--Text_Light, #fff);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Epilogue;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
+.container nav .logo span{
+    color: var(--Text_Light, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
 }
 
 .container .navbar li {
   list-style-type: none;
-  margin-right: 15px;
+
 }
 
 .container .navbar li a {
@@ -54,23 +52,13 @@
   font-weight: 400;
   line-height: 32px;
 }
-button a {
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-  font-family: Epilogue;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-transform: uppercase;
+a{
+    text-decoration: none;
 }
-button {
-  width: 138px;
-  height: 48px;
-  border: 1px solid rgba(255, 255, 255, 0.64);
-  border-radius: 10px;
-  background: none;
+button{
+    width: 138px;
+height: 48px;
+border: 1px solid  rgba(255, 255, 255, 0.64);
 }
 .container .menu .navbar .logo {
   display: flex;
@@ -82,7 +70,7 @@ button {
   height: 48px;
 }
 
-.container main h1 {
+.container .text h1 {
   margin-top: 104px;
   color: var(--Text_Light, #fff);
   text-align: center;
@@ -95,7 +83,7 @@ button {
   letter-spacing: -2px;
 }
 
-.container main p {
+.container .text p {
   width: 570;
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
   text-align: center;
