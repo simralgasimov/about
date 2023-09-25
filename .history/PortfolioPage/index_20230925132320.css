@@ -121,9 +121,5 @@
 .container .image-box .box-2 .box:first-child {
   width: 55%;
 }
-.container .image-box .box-2 {
-  justify-content: space-between;
-  display: flex;
-  margin-top: 30px;
-}
+
 
