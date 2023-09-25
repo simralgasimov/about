@@ -57,11 +57,13 @@
 .container .text p {
   color: var(--Text_Light, #fff);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* H3 */
   font-family: Epilogue;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
-  line-height: 48px; 
+  line-height: 48px; /* 120% */
 }
 
 .container .text img {

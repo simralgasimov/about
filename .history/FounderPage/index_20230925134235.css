@@ -16,29 +16,24 @@
 
 .container .user-img {
   position: relative;
-  background-color: red;
-  width: 570px;
-  height: 448px;
 }
 
 .container .user-img img:first-child {
-  width: 570px;
-  height: 448px;
+  /* margin: auto; */
 }
 
 .container .user-img img:last-child {
   width: 477px;
   position: absolute;
+  /* left: 42px;
+  bottom: 5px; */
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
 }
 
 .container .text {
-  width: 470px;
-
   position: relative;
-  background-color: wheat;
 }
 
 .container .text h2 {
@@ -55,21 +50,24 @@
 }
 
 .container .text p {
+  z-index: 0;
+  position: relative;
   color: var(--Text_Light, #fff);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* H3 */
   font-family: Epilogue;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
-  line-height: 48px; 
+  line-height: 48px; /* 120% */
 }
 
 .container .text img {
   width: 100px;
   position: absolute;
-  top: 9px;
-  right: 46px;
-  z-index: 0;
+  bottom: 320px;
+  right: 0;
 }
 
 .container .text h3 {
@@ -92,8 +90,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-}
-.container .text-box {
-  position: relative;
-  z-index: 1;
 }
